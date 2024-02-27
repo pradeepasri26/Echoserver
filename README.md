@@ -2,7 +2,6 @@
 Echo server and client using python socket
 
 # AIM:
-
 To develop a simple webserver to serve html programming pages.
 
 ## DESIGN STEPS:
@@ -37,7 +36,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 break
             conn.sendall(data)
 ```
-
 
 ### CLIENT CODE: echo-client.py:
 ```
