@@ -38,6 +38,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             conn.sendall(data)
 ```
 
+
 ### CLIENT CODE: echo-client.py:
 ```
 import socket
