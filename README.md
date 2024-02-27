@@ -20,7 +20,7 @@ Implementation using Python code
 Testing the server and client 
 
 ## PROGRAM:
-### Server Code: echo-server.py:###
+### Server Code: echo-server.py:
 ```
 import socket
 HOST = "127.0.0.1"  # Standard loopback interface address (localhost)
@@ -38,7 +38,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             conn.sendall(data)
 ```
 
-### Client code: echo-client.py:###
+### Client code: echo-client.py:
 ```
 import socket
 HOST = "127.0.0.1"  # The server's hostname or IP address
@@ -51,10 +51,10 @@ print(f"Received {data!r}")
 ```
 
 ## OUTPUT:
-### Server output:###
+### Server output:
 ![image](https://github.com/pradeepasri26/Echoserver/assets/131433142/a89b0d25-0b41-4b95-9eeb-9c7f6ed92533)
 
-### Client side:###
+### Client side:
 ![image](https://github.com/pradeepasri26/Echoserver/assets/131433142/802600e0-45fe-4a33-9388-e123fbdc7087)
 
 
